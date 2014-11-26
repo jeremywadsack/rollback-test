@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.19'
+gem 'rails', '4.1.8'
 
 gem 'pg', '0.17.1'
 
-gem 'rspec-rails', '2.14.2'
+gem 'rspec-rails', '2.99'
