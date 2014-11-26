@@ -27,5 +27,5 @@ Note that the second runs fails because there's already a record in the database
 
 You can clean up the database with psql:
 
-   psql rollback-service-test -c 'DELETE FROM categories;'
+    psql rollback-service-test -c 'DELETE FROM categories;'
  
