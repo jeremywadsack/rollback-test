@@ -29,7 +29,7 @@ Note that the second runs fails because there's already a record in the database
 
 You can clean up the database with psql:
 
-   psql rollback-service-test -c 'DELETE FROM categories;'
+    psql rollback-service-test -c 'DELETE FROM categories;'
 
 ## Verify not broken on patch (rails 5.0.0.beta1 jeremywadsack:use_transactional_fixtures_all_databases)
 
